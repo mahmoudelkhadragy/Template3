@@ -1,0 +1,213 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{width: 1170px;margin: auto;}
+.fl-left{float: left}
+.fl-right{float: right}
+.clear{clear: both}
+h1{margin: 0px;color: #fff;}
+h2{
+    margin: 0px 0 30px 0;
+    font-family: Tahoma;
+    color: #777;
+    text-decoration: underline;
+}
+p{
+    margin: 0px;
+    color: #888;
+    line-height: 1.7;
+    font-size: 20px
+}
+.button-gray{
+    margin-top: 30px;
+    background: #fff;
+    outline: none;
+    border: 1px solid #DDD;
+    color: #666;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 18px;
+    transition: .3s all ease-in-out;
+}
+.button-gray:hover{
+    background: #8A2BE2;
+    color: #fff;
+}
+/*--------- Start header --------*/
+header{
+    background-color: #8A2BE2;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    padding-top: 120px;
+}
+header .heading{
+    width: 45%;
+    border-right: 1px solid darkgray;
+
+}
+header .heading h1{
+    width: 65%;
+    line-height: 1.8;
+}
+header h1 span{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+header h1 span:hover{color:#00B7C4;}
+header .lorem{
+    width: 50%;
+    margin-left: 2%;
+}
+header .lorem p{color: darkgray;}
+.buttons-effect{
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #ecf0f1;
+    color: #333;
+    padding: 15px 50px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+.buttons-effect.from-top span:first-child{
+    background-color: #bdc3c7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    z-index: 2
+}
+.buttons-effect.from-top span:last-child{
+    z-index: 3;
+    position: relative;
+}
+.border-bottom{
+    border-radius: 0;
+    overflow: visible;
+}
+.border-bottom span:first-child{
+    background-color: #3498db;
+    position: absolute;
+    top: auto;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    z-index: 2
+}
+.border-bottom span:last-child{
+    z-index: 3;
+    color: #3498db;
+    position: relative;
+}
+
+
+/*--------- End header --------*/
+/*--------- Start magna --------*/
+.magna{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: hidden;
+    border-bottom: 1px solid #DDD;
+}
+.magna .article{
+    width: 45%;
+    border-right: 1px solid #DDD;
+}
+.magna .article p{
+    font-size: 17px;
+    line-height: 1.8;
+    color: #888;
+    padding-right: 10px;
+}
+.magna .details{
+    width: 50%;
+    margin-left: 2%;
+    visibility: hidden;
+}
+.magna .details i{
+    color: #00BCBA;
+    padding: 15px
+}
+/*--------- End magna --------*/
+/*--------- Start pharetra --------*/
+.pharetra{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #F2F2F2;
+}
+.pharetra .part{padding-bottom: 20px;height: 400px;}
+.pharetra .part img{width: 40%}
+.pharetra .part .he{
+    width: 40%;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+/*--------- End pharetra --------*/
+/*--------- Start malesuada --------*/
+.malesuada{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    border-bottom: 1px solid #DDD;
+}
+.malesuada .log{
+    width: 45%;
+    border-right: 1px solid #DDD;
+}
+.malesuada .log p{
+    font-size: 17px;
+    line-height: 1.8;
+    color: #888;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+.malesuada .log form input{
+    width: 250px;
+    height: 35px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    outline: 0;
+    font-size: 18px;
+}
+.malesuada .log form textarea{
+    width: 450px;
+    height: 150px;
+    outline: 0;
+    padding-left: 20px;
+    font-size: 17px;
+}
+.malesuada .social{
+    padding-top: 50px;
+    width: 50%;
+    margin-left: 2%;
+}
+.malesuada .social i{
+    color: #00BCBA;
+    padding: 15px;
+    cursor: pointer;
+}
+/*--------- End malesuada --------*/
+
+/*--------- Start footer--------*/
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+footer p{
+    font-size: 16px;
+}
+/*--------- End footer --------*/
+
+
+
